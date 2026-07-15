@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Melgav — Küçük, özenli bulmaca oyunları</title>
+<meta name="description" content="Melgav: small, handcrafted puzzle games. Numeq and Lanterno.">
+<style>
+  :root { --ink: #e7eaf4; --muted: #b9c0ce; --card: #323a50; --border: #414a66;
+          --amber: #f5a623; }
+  body { font-family: system-ui, -apple-system, sans-serif; margin: 0;
+         color: var(--ink); line-height: 1.6; min-height: 100vh;
+         background: linear-gradient(#2a3049, #151928); }
+  main { max-width: 640px; margin: 0 auto; padding: 4rem 1.25rem 3rem; }
+  h1 { font-size: 2.2rem; margin: 0; }
+  .tagline { color: var(--muted); margin-top: .25rem; }
+  .card { background: var(--card); border: 1px solid var(--border);
+          border-radius: 16px; padding: 1.1rem 1.25rem; margin-top: 1.25rem; }
+  .card h2 { margin: 0 0 .2rem; font-size: 1.25rem; }
+  .card p { margin: .2rem 0 .6rem; color: var(--muted); }
+  .card a { color: var(--amber); text-decoration: none; margin-right: 1rem; }
+  .card a:hover { text-decoration: underline; }
+  .soon { display: inline-block; font-size: .75rem; background: var(--amber);
+          color: #151928; border-radius: 999px; padding: .05rem .6rem;
+          vertical-align: middle; margin-left: .4rem; font-weight: 600; }
+  footer { margin-top: 3rem; color: var(--muted); font-size: .9rem; }
+  footer a { color: var(--amber); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Melgav</h1>
+  <p class="tagline">Küçük, özenli bulmaca oyunları · Small, handcrafted puzzle games</p>
+
+  <div class="card">
+    <h2>Numeq</h2>
+    <p>Sayılarla mantık bulmacası · A number logic puzzle</p>
+    <a href="https://play.google.com/store/apps/details?id=com.melgav.numeq">Google Play</a>
+    <a href="/numeq/privacy/">Gizlilik / Privacy</a>
+  </div>
+
+  <div class="card">
+    <h2>Lanterno<span class="soon">yakında · soon</span></h2>
+    <p>Fenerleri yak, tekneyi limana ulaştır · Light the lanterns, guide the boat home</p>
+    <a href="/lanterno/privacy/">Gizlilik / Privacy</a>
+  </div>
+
+  <footer>
+    İletişim / Contact: <a href="mailto:melgav.dev@gmail.com">melgav.dev@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>
